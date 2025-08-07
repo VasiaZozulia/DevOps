@@ -1,0 +1,3 @@
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/aws_key
+
+ ssh -i aws_key -L 2288:127.0.0.1:80 -N ec2-user@18.159.59.35
